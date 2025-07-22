@@ -1,7 +1,7 @@
 from mu import MujocoController
-from gravity import Gravity_Compensation
+from gravity_compensation import Gravity_Compensation
 
-openarm = "/Users/lr-2002/project/instantcreation/openarm_simulation/assets/mujoco/openarm_force.mjcf.xml"
+openarm = "description/openarm/openarm_force.mjcf.xml"
 
 mc = MujocoController(openarm)
 model = Gravity_Compensation(openarm)
